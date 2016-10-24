@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void updateScore(){
-
-
-
         TextView scoreView = (TextView) findViewById(R.id.team1score);
         scoreView.setText(String.valueOf(team1Score));
 
